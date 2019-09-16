@@ -445,6 +445,14 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   margin-bottom: 30px;
 }
+#fh5co-counter .event-wrap .col-center,
+#fh5co-event .event-wrap .col-center {
+  text-align: center;
+}
+#fh5co-counter .event-wrap .col-right,
+#fh5co-event .event-wrap .col-right {
+  text-align: right;
+}
 
 #fh5co-counter {
   height: 600px;
