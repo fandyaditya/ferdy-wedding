@@ -1856,4 +1856,37 @@ form label {
   opacity: 0;
 }
 
+.event-detail {
+  margin-top: 10em;
+}
+
+#fh5co-header {
+  background-image: url(../images/gallery/gallery_12.jpg);
+}
+
+#fh5co-event {
+  background-image: url(../images/gallery/gallery_23.jpg);
+}
+
+.mepandes h3 {
+  font-family: "Sacramento", Arial, serif;
+  padding-top: 2em;
+  color:  #00AAFF;
+  padding: 5px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .event-detail {
+    margin-top: 2em;
+  }
+  #fh5co-header {
+    background-image: url(../images/gallery/gallery_11.jpg);
+  }
+  #fh5co-event {
+    background-image: url(../images/gallery/gallery_17.jpg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
