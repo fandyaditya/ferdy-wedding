@@ -950,7 +950,8 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(0, 170, 255, 0.8);
+  /* background: rgba(0, 170, 255, 0.8); */
+  background: rgba(212, 175, 55, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1031,6 +1032,9 @@ form label {
 
 .fh5co-section-gray {
   background: rgba(0, 0, 0, 0.04);
+}
+.fh5co-section-black {
+  background: rgba(28, 26, 26);
 }
 
 .couple-wrap {
