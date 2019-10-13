@@ -1029,6 +1029,8 @@ form label {
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
+#fh5co-extra,
+#fh5co-closing,
 .fh5co-section {
   padding: 1em 0;
   clear: both;
@@ -1046,7 +1048,9 @@ form label {
   #fh5co-event,
   #fh5co-couple-story,
   #fh5co-couple,
+  #fh5co-extra,
   #fh5co-gallery,
+  #fh5co-closing,
   .fh5co-section {
     padding: 3em 0;
   }
@@ -1229,7 +1233,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 .fh5co-heading p {
@@ -1918,6 +1922,60 @@ form label {
   #fh5co-event {
     background-image: url(https://lh3.googleusercontent.com/4DQVhfODoczir3rK3f-2TeYF-1inwjtGVuHX9VRg_87UsMm6tu9aw_HP6h-HCIlsl7owdFsUGDjPhK2JcaIrw7bqLGCVPf7TVRcY3yyZkfyo5LYqeg0I2mp91gX1RlTykpbOSYIowrY=w2400);
   }
+  #fh5co-closing h2 {
+    margin-top: 3em;
+  }
 }
+
+.regards {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.regards h3 {
+  font-family: "Sacramento", Arial, serif;
+  color:  #D4AF37;
+  padding: 5px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.regards p {
+  margin-bottom: 1em;
+}
+
+#fh5co-closing {
+  height: 90vh;
+}
+
+#fh5co-closing h2 {
+  margin-top: 2em;
+}
+
+#fh5co-closing .container {
+  margin-top: 5em;
+}
+
+.gallery-slider {
+  width: 100%;
+}
+
+.gallery-slider ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom:0;
+}
+.gallery-slider li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor:pointer;
+}
+.gallery-slider img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 
 /*# sourceMappingURL=style.css.map */
