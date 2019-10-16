@@ -1973,8 +1973,11 @@ form label {
 }
 .gallery-slider img {
   display: block;
-  height: auto;
+  height: 80vh;
+  object-fit: cover;
+  text-align: center;
   max-width: 100%;
+  margin: auto;
 }
 
 
