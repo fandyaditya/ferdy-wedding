@@ -36,6 +36,7 @@
         freeMove: true,
         swipeThreshold: 40,
         responsive: [],
+        fullscreen: true,
         /* jshint ignore:start */
         onBeforeStart: function ($el) {},
         onSliderLoad: function ($el) {},
@@ -182,12 +183,17 @@
             },
             controls: function () {
                 if (settings.controls) {
-                    $el.after('<div class="lSAction"><a class="lSPrev">' + settings.prevHtml + '</a><a class="lSNext">' + settings.nextHtml + '</a>' + '<a class="fullscreen"></a></div>');
+                    // $el.after('<div class="lSAction"><a class="lSPrev">' + settings.prevHtml + '</a><a class="lSNext">' + settings.nextHtml + '</a>' + '<a class="fullscreen"></a></div>');
+                    $el.after('<div class="lSAction"><a class="lSPrev">' + settings.prevHtml + '</a><a class="lSNext">' + settings.nextHtml + '</a>');
                     if (!settings.autoWidth) {
                         if (length <= settings.item) {
                             $slide.find('.lSAction').hide();
                         }
-                    } else {
+                    }
+                    if(!settings.fullscreen) {
+                        $slide.find('.lSAction > .fullscreen').hide();
+                    }
+                    else {
                         if (refresh.calWidth(false) < elSize) {
                             $slide.find('.lSAction').hide();
                         }
