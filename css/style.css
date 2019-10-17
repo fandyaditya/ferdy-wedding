@@ -1974,7 +1974,7 @@ form label {
 .gallery-slider img {
   display: block;
   height: 80vh;
-  object-fit: cover;
+  object-fit: contain;
   text-align: center;
   max-width: 100%;
   margin: auto;
