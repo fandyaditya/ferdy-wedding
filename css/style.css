@@ -13,6 +13,10 @@
   font-family: 'delighter';
   src: url("../fonts/Delighter.otf") format("opentype");
 }
+@font-face {
+  font-family: 'ants-valley';
+  src: url("../fonts/AntsValley.otf") format("opentype");
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -853,7 +857,7 @@ form label {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: "darleston", Arial, serif;
+  font-family: "ants-valley", Arial, serif;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -882,7 +886,7 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 64px;
+  font-size: 40px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -890,7 +894,7 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 48px;
+    font-size: 32px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -1929,7 +1933,7 @@ form label {
     background-image: url(https://lh3.googleusercontent.com/icVqx8ujLq1NCzIXKYp2E3Koz8Lg_IMJuU2lvUPN4IoRVmc63Gi8pRra6z2PpWU-_wlgqJbr_IVVn1q7aqKbNXLBii9-4Pqs9W3ljHWgXV42sWW4jfXIxp4eB1K25l6PmDD57U-awQw=w2400);
   }
   #fh5co-event {
-    background-image: url(https://lh3.googleusercontent.com/hs15cNnFGUhDXGUOt-NfZ5iMyj7mVCJyns-aJ_gSCtjra6nO43CIuqw2MW2keBbTwy2Emt0WokSDRtinNsOFK5u9P35lVA6nNWAZX27gR5SmrOqrlKArh94nKCNIzOZNNh1c7AG4CTxqMyVq3VH9ibgYaj2-yA6m_slOTBNCaRqcxy3zW9n1ic28CK919SZkdrIHaEU6na3WJj6JR--sttzkZbxZsCONjQKNsT6fljK0fbzdx5T6XU54eUqi0WnnTLZiOdPBmJwr8pH3NLNREyQu4slJQXtt7AP6C9QaloHrK252Vlnbr2te4mY-V3N25hUdVEoJP1EDyUIYXCkyGlnlQbg3Me3F8ebC9KlowRA9B2lFnuDZBjMJEsgamz-1enwE-rxRxM98QHUyy8S8vTBj1_yFgf3q2LqUk-26lFCkJW_wVWdiskU9cUAjJwQWcylxzRLUZ8s5j0tWf2VTpwjy6aNF4TH45xhQbl8x_YoO0k4i_fDQUZ8v9zChQikBIdHYjc-vFTSZmg8qaDsyRWgfN0azmIFtcb7mRqNK1SMFJIypdyOczm0-ZkcyRH_gyvxyFSV3GADD9JISBMEnSIlZylE7SVt0miTYr3fli3QgY3P06kDOtu072cgZqoyAYM6c33kRwiTITfUvaQ6BaI0ePACbuEr15zdXQQfROJ_q6wH0x2_egUg=w1244-h950-no);
+    background-image: url(https://lh3.googleusercontent.com/arSDdJQGGZcxonuVYl3DZhpSMUe9Ksek63CChjLKVqVz7yEIXqLKY66rcsurD-mRhso3Jh12Lnk1FvmDmgPU0vJGjZgdxT-1wQzdN269V_engtRVl0f5Kxgh9ckyli1q-4nTkCsX7NQ=w2400);
   }
   #fh5co-closing h2 {
     margin-top: 3em;
