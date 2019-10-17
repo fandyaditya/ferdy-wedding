@@ -65,7 +65,8 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h2>PAWIWAHAN<br/>(PERNIKAHAN)</h2>
+							<h2 style="margin-bottom: 0px;">Undangan</h2>
+							<h2 style="margin-left: 1.5em; margin-top: 0px;">Pernikahan</h2>
 							<h1>Ferdy &amp; Lilis</h1>
 							<div class="simply-countdown simply-countdown-one"></div>
 							<p><a href=# class="btn btn-default btn-sm">3 November 2019</a></p>
@@ -79,15 +80,15 @@
 	<div id="fh5co-couple">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-center fh5co-heading animate-box">
 					<h2>Om Swastiastu</h2>
-					<p>Atas asung kerta wara nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha Esa  perkenankanlah kami untuk mengundang bapak/ibu dalam upacara manusa yadnya pawiwahan (pernikahan) kami:</p>
+					<p>Atas Asung Kerta Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha Esa perkenankanlah kami untuk mengundang Bapak/Ibu dalam upacara Manusa Yadnya Pawiwahan (Pernikahan) kami:</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="couple-wrap animate-box">
 					<div class="couple-half">
-						<div class="groom">
+						<div class="groom ">
 							<img src="images/ferdy-groom-5.jpg" alt="groom" class="img-responsive">
 						</div>
 						<div class="desc-groom">
@@ -108,8 +109,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="mepandes col-md-8 col-md-offset-2 text-center animate-box" >
-					<p>Serta upacara manusa yadnya mepandes (Potong gigi): </p>
+				<div class="mepandes col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-center animate-box" >
+					<p>Serta upacara Manusa Yadnya Mepandes (Potong gigi):</p>
 					<h3>I Putu Ferdy Wirana</h3>
 					<h3>&amp;</h3>
 					<h3>I Made Fandy Aditya Wirana</h3>
@@ -172,7 +173,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span style="color: azure">Our Memories</span>
 					<h2>Gallery &amp; Video</h2>
 				</div>
 			</div>
@@ -343,8 +343,8 @@
 	<div id="fh5co-closing" class="fh5co-section-black">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="margin-bottom: 1em;">
-					<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/ibu/Saudara/i berkenan hadir untuk memberi doa restu kepada kami</p>
+				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-center fh5co-heading animate-box" style="margin-bottom: 1em;">
+					<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu berkenan hadir untuk memberi doa restu kepada kami.</p>
 					<div class="regards">
 						<p>Kami yang berbahagia,</p>
 						<h3>I Putu Ferdy Wirana</h3>
@@ -432,54 +432,71 @@
 		});
 
 		$(document).ready(function () {
+			$('#slider').show().lightSlider({
+				item: 1,
+				autoWidth: false,
+				slideMove: 1, // slidemove will be 1 if loop is true
+				slideMargin: 0,
 
-    $('#slider').show().lightSlider({
-        item: 1,
-        autoWidth: false,
-        slideMove: 1, // slidemove will be 1 if loop is true
-        slideMargin: 0,
+				addClass: '',
+				mode: "slide",
+				useCSS: false,
+				cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+				easing: 'linear', //'for jquery animation',////
 
-        addClass: '',
-        mode: "slide",
-        useCSS: false,
-        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-        easing: 'linear', //'for jquery animation',////
+				speed: 400, //ms'
+				auto: false,
+				loop: false,
+				slideEndAnimation: true,
+				pause: 2000,
 
-        speed: 400, //ms'
-        auto: false,
-        loop: false,
-        slideEndAnimation: true,
-        pause: 2000,
+				keyPress: false,
+				controls: true,
+				prevHtml: '',
+				nextHtml: '',
 
-        keyPress: false,
-        controls: true,
-        prevHtml: '',
-        nextHtml: '',
+				rtl: false,
+				adaptiveHeight: false,
 
-        rtl: false,
-        adaptiveHeight: false,
+				vertical: false,
+				verticalHeight: 500,
+				vThumbWidth: 100,
 
-        vertical: false,
-        verticalHeight: 500,
-        vThumbWidth: 100,
+				thumbItem: 10,
+				pager: true,
+				gallery: false,
+				galleryMargin: 5,
+				thumbMargin: 5,
+				currentPagerPosition: 'middle',
 
-        thumbItem: 10,
-        pager: true,
-        gallery: false,
-        galleryMargin: 5,
-        thumbMargin: 5,
-        currentPagerPosition: 'middle',
+				enableTouch: false,
+				enableDrag: false,
+				freeMove: true,
+				swipeThreshold: 40,
 
-        enableTouch: false,
-        enableDrag: false,
-        freeMove: true,
-        swipeThreshold: 40,
+				responsive: [],
+				
+				fullscreen: false
+			})
+		});
 
-		responsive: [],
-		
-		fullscreen: false
-    })
-});
+		$(document).ready(function($) {
+			var alterClass = function() {
+				var ww = document.body.clientWidth;
+				if (ww <= 480) {
+					$('.desc-groom').addClass('col-xs-10 col-xs-offset-1');
+					$('.desc-bride').addClass('col-xs-10 col-xs-offset-1');
+				} 
+				else if (ww > 480) {
+					$('.desc-groom').removeClass('col-xs-10 col-xs-offset-1');
+					$('.desc-bride').removeClass('col-xs-10 col-xs-offset-1');
+				};
+			};
+			$(window).resize(function(){
+				alterClass();
+			});
+			alterClass();
+		});
 	</script>
 	</body>
 </html>
