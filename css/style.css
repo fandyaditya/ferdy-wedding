@@ -1953,9 +1953,9 @@ form label {
   margin-bottom: 1em;
 }
 
-#fh5co-closing {
-  height: 95vh;
-}
+/* #fh5co-closing {
+  height: auto;
+} */
 
 #fh5co-closing h2 {
   margin-top: 1em;
