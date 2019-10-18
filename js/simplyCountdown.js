@@ -184,8 +184,11 @@
                     hourWord,
                     minuteWord,
                     secondWord;
+                    
+                var baliTime = new Date().toLocaleString("en-US", {timeZone: "Asia/Kuala_Lumpur"});
+                
+                now = new Date(baliTime);
 
-                now = new Date();
                 if (parameters.enableUtc) {
                     nowUtc = new Date(now.getFullYear(), now.getMonth(), now.getDate(),
                         now.getHours(), now.getMinutes(), now.getSeconds());
