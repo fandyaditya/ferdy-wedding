@@ -1905,11 +1905,13 @@ form label {
 }
 
 #fh5co-header {
-  background-image: url(https://lh3.googleusercontent.com/kg9M_7Ye4nAL7igSUd8Qrab9Jpdz-ynAA6faXrL9dcVOYl9WGRAAsRb5MNnc4KWn1Y_k6_FdEsxfuJ1zb__vi2F40fCgf75zdyIpxhcAePNg00snp2PiIHgsNuacS01yhCMKhdt9rQU=w2400);
+  background-image: url("../images/gallery/cover_welcome.jpg");
+  /* background-image: url(https://lh3.googleusercontent.com/kg9M_7Ye4nAL7igSUd8Qrab9Jpdz-ynAA6faXrL9dcVOYl9WGRAAsRb5MNnc4KWn1Y_k6_FdEsxfuJ1zb__vi2F40fCgf75zdyIpxhcAePNg00snp2PiIHgsNuacS01yhCMKhdt9rQU=w2400); */
 }
 
 #fh5co-event {
-  background-image: url(https://lh3.googleusercontent.com/LPBKNQTerPgROb8vp8J4AZI9FZznsh_QsD47jS6A5Um-3yP41ppg36tB8Uj09_7oO93c2jD4D2A2B9XuNtGOSLmTrjvRG7ZdPTHZg-fjoULKXm0qOpRF-BPq1Lr61zdD5b3GnlA13s8=w2400);
+  background-image: url("../images/gallery/cover_event.jpg");
+  /* background-image: url(https://lh3.googleusercontent.com/LPBKNQTerPgROb8vp8J4AZI9FZznsh_QsD47jS6A5Um-3yP41ppg36tB8Uj09_7oO93c2jD4D2A2B9XuNtGOSLmTrjvRG7ZdPTHZg-fjoULKXm0qOpRF-BPq1Lr61zdD5b3GnlA13s8=w2400); */
 }
 
 .mepandes {
@@ -1930,10 +1932,12 @@ form label {
     margin-top: 2em;
   }
   #fh5co-header {
-    background-image: url(https://lh3.googleusercontent.com/icVqx8ujLq1NCzIXKYp2E3Koz8Lg_IMJuU2lvUPN4IoRVmc63Gi8pRra6z2PpWU-_wlgqJbr_IVVn1q7aqKbNXLBii9-4Pqs9W3ljHWgXV42sWW4jfXIxp4eB1K25l6PmDD57U-awQw=w2400);
+    background-image: url("../images/gallery/cover_welcome_2.jpg");
+    /* background-image: url(https://lh3.googleusercontent.com/icVqx8ujLq1NCzIXKYp2E3Koz8Lg_IMJuU2lvUPN4IoRVmc63Gi8pRra6z2PpWU-_wlgqJbr_IVVn1q7aqKbNXLBii9-4Pqs9W3ljHWgXV42sWW4jfXIxp4eB1K25l6PmDD57U-awQw=w2400); */
   }
   #fh5co-event {
-    background-image: url(https://lh3.googleusercontent.com/arSDdJQGGZcxonuVYl3DZhpSMUe9Ksek63CChjLKVqVz7yEIXqLKY66rcsurD-mRhso3Jh12Lnk1FvmDmgPU0vJGjZgdxT-1wQzdN269V_engtRVl0f5Kxgh9ckyli1q-4nTkCsX7NQ=w2400);
+    background-image: url("../images/gallery/cover_event_2.jpeg");
+    /* background-image: url(https://lh3.googleusercontent.com/arSDdJQGGZcxonuVYl3DZhpSMUe9Ksek63CChjLKVqVz7yEIXqLKY66rcsurD-mRhso3Jh12Lnk1FvmDmgPU0vJGjZgdxT-1wQzdN269V_engtRVl0f5Kxgh9ckyli1q-4nTkCsX7NQ=w2400); */
   }
   #fh5co-closing h2 {
     margin-top: 3em;
