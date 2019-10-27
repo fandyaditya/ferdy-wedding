@@ -406,13 +406,14 @@
 	<script src="js/lightslider.js"></script>
 
 	<script>
-		var d = new Date('November 3, 2019 00:00:00');
+		var d = new Date('November 3, 2019 07:00:00');
 
 		// default example
 		simplyCountdown('.simply-countdown-one', {
 			year: d.getFullYear(),
 			month: d.getMonth() + 1,
-			day: d.getDate()
+			day: d.getDate(),
+			hours: d.getHours()
 		});
 
 		//jQuery example
@@ -420,6 +421,7 @@
 			year: d.getFullYear(),
 			month: d.getMonth() + 1,
 			day: d.getDate(),
+			hours: d.getHours(),
 			enableUtc: false
 		});
 
